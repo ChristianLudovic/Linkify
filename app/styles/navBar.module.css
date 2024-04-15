@@ -1,0 +1,22 @@
+.navBar{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.navBarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1136px;
+    width: 100%;
+}
+
+.navBarLinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 280px;
+  width: 100%;
+}
+
+
