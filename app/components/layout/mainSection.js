@@ -22,8 +22,8 @@ export default function MainSection() {
         <>
             <div className={styles.mainSection} id="mainSection">
                 <div className={styles.mainSectionContent} id="mainSectionContent">
-                    {links.map((link) => ( link.title !== "" &&
-                        <div className={styles.card} id="card">
+                    {links.map((link, index) => ( link.title !== "" &&
+                        <div className={styles.card} id="card" key={index}>
                             <div className={styles.cardLeft}>
                                 <Image 
                                     src={link.imageReference} 
