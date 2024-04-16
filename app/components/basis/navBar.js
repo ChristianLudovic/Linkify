@@ -7,17 +7,16 @@ import styles from "../../styles/NavBar.module.css";
 export default function NavBar() {
     return (
         <>
-            <div className={styles.navBar}>
-                <div className={styles.navBarContent}>
+            <div className={styles.navBar} id="navBar">
+                <div className={styles.navBarContent} id="navBarContent">
                     <div className={styles.navBarLogo}>
                         <Link href="/">
-                            <Image src={logo} alt="logo" width={150} height={40}/>
+                            <Image src={logo} alt="logo" width={100} height={30} />
                         </Link>
                     </div>
-                    <div className={styles.navBarLinks}>
-                        <Link href="/"><span>About us</span></Link>
-                        <Link href="/"><span>Pricing</span></Link>
-                        <Link href="/"><span>We're hiring</span></Link>
+                    <div className={styles.navBarLinks} id="navBarLinks">
+                        <Link legacyBehavior href="/"><a className={styles.navLink}>About us</a></Link>
+                        <Link legacyBehavior href="/"><a className={styles.navLink}>GitHub</a></Link>
                     </div>
                     <div className={styles.navBarButton}>
                         <Button />

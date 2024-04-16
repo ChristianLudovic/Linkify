@@ -7,7 +7,7 @@ export default function ButtonLarge() {
         <>
             <div className="buttonLarge">
                 <Link href="https://www.buymeacoffee.com/christianludovic">
-                    <Image src={buyMeACoffee} alt="button" width={234} height={56} /> 
+                    <Image src={buyMeACoffee} alt="button" width={234} height={56} id='buttonLarge'/> 
                 </Link>
             </div>
         </>

@@ -1,3 +1,6 @@
+
+
+
 .navBar{
   display: flex;
   justify-content: center;
@@ -13,10 +16,19 @@
 
 .navBarLinks{
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
-  max-width: 280px;
-  width: 100%;
+  gap: 15px;
 }
 
+.navLink{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*responsive design*/
+
+
+  
+  
 

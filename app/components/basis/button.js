@@ -7,7 +7,7 @@ export default function Button() {
         <>
             <div className="button">
                 <Link href="https://www.buymeacoffee.com/christianludovic">
-                    <Image src={buyMeACoffee} alt="button" width={81} height={29} /> 
+                    <Image src={buyMeACoffee} alt="button" width={100} height={30} /> 
                 </Link>
             </div>
         </>
