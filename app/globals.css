@@ -12,88 +12,25 @@ body{
 }
 
 @media screen and (max-width: 1280px){
+  
   #navBarContent{
-    max-width: 900px;
+    max-width: 1050px;
   }
 
   #heroElementsContent{
     padding-bottom: 40px;
+    max-width: 1050px;
   }
 
   #mainSectionContent{
-    display: flex;
-    flex-direction: column;
+    max-width: 1050px;  
   }
-
-  
 }
-
 @media screen and (max-width: 1024px){
   #navBarContent{
     max-width: 800px;
-    
   }
 
-  #navBarLinks{
-    display: none;
-  }
-
-  #heroTitleAndSubTitle>h1{
-    font-size: 40px;
-    max-width: 600px;
-  }
-
-  #heroTitleAndSubTitle>p{
-    font-size: 18px;
-    max-width: 500px;
-  }
-
- 
 }
 
-@media screen and (max-width: 768px){
-  #navBarContent{
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  #heroElementsContent{
-    padding-bottom: 0px;
-    padding-top: 40px;
-  }
-
-
-  #heroTitleAndSubTitle>h1{
-    font-size: 32px;
-    max-width: 330px;
-  }
-
-  #heroTitleAndSubTitle>p{
-    font-size: 16px;
-    max-width: 330px;
-  }
-
-  #buttonLarge{
-    width: 140px;
-    height: 40px;
-  }
-
-  #card{
-    gap: 15px;
-    width: 330px;
-    border-radius: 6px;
-    padding: 20px 16px;
-  }
-
-  #cardRight h2{
-    font-size: 16px;
-    
-  }
-
-  .cardRight > Link{
-    font-size: 14px;
-    
-}
-
-}
 
