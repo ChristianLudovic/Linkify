@@ -2,13 +2,15 @@
 
 import MainSection from "./components/layout/mainSection";
 import HeroSection from "./components/layout/heroSection";
-import styles from "./page.module.css";
+import FooterSection from "./components/layout/footerSection";
+
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <MainSection />
+      <FooterSection />
     </>
   );
 }

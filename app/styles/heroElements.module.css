@@ -1,11 +1,12 @@
-
-.heroElementsContent{
+.heroElements{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    
+}
+.heroElementsContent{
     gap: 50px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 324.56px;
+    width: 1136px;
 }
 
 .heroTitleAndSubTitle{
@@ -16,26 +17,33 @@
     gap: 34px;
 }
 
-.heroTitleAndSubTitle > h1{
-    font-size: 68px;
-    font-weight: 700;
-    color: #FFFFFF;
-    line-height: 130%;
-    max-width: 852px;
-    width: 100%;
-    letter-spacing: -2%;
-    text-align: center;
+.heroElementsContentText{
+    padding-bottom: 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.heroTitleAndSubTitle > p{
-    font-size: 24px;
-    font-weight: 400;
-    color: #A7A9BE;
+.heroElementsContent .heroElementsContentText > h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
     line-height: 150%;
-    letter-spacing: 0%;
-    max-width: 731px;
+    max-width: 852px;
     width: 100%;
-    text-align: center;
+    letter-spacing: 8%;
+    
+}
+
+.heroElementsContent .heroElementsContentText > p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 170%;
+    letter-spacing: 8%;
+    max-width: 600px;
+    width: 100%;
+   
 }
 
 .heroReleaseBadge{
@@ -45,4 +53,59 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* card*/
+
+.heroElementsCardSlider{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardContent{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContent > h2{
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+    letter-spacing: 8%;
+}
+
+.cardIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 256px;
+    border: 1px solid #1D1E25;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card1{
+    background-image: url('../assets/images/championsLeague.svg');
+}
+
+.card2{
+    background-image: url('../assets/images/Ligue1.svg');
+}
+
+.card3{
+    background-image: url('../assets/images/PremierLeague.svg');
+}
+
+.card4{
+    background-image: url('../assets/images/bundesLiga.svg');
 }

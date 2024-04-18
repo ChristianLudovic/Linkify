@@ -18,4 +18,6 @@ model Link {
   title         String
   url           String
   imageReference String
+  championShip  String?
+  hour          String?
 }

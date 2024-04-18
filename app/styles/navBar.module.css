@@ -26,6 +26,30 @@
   color: #fff;
 }
 
+.navLinkRightRight{
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.navLinkRight{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.navLinkRightLeft{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navBarLinksAndButton{
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
 /*responsive design*/
 
 
