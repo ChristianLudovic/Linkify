@@ -3,7 +3,7 @@ import Image from "next/image";
 import championsLeague from "../../assets/logo/championsLeague.svg";
 import ligue1 from "../../assets/logo/Ligue1.svg";
 import premierLeague from "../../assets/logo/premierLeague.svg";
-import bundesLiga from "../../assets/logo/bundesLigaLogo.svg";
+import europaLeague from "../../assets/logo/europaLeague.svg";
 
 export default function HeroElements() {
     return (
@@ -42,9 +42,9 @@ export default function HeroElements() {
                         <div className={styles.card4} id="card4">
                             <div className={styles.cardContent}>
                                 <div className={styles.cardIcon}>
-                                    <Image src={bundesLiga} width={28} height={28} alt="BundesLiga" />
+                                    <Image src={europaLeague} width={28} height={28} alt="BundesLiga" />
                                 </div>
-                                <h2>BundesLiga</h2>
+                                <h2>Europa League</h2>
                             </div>
                         </div>
                     </div>
