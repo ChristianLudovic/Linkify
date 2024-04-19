@@ -129,7 +129,8 @@ body{
   #heroElementsCardSlider{
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    column-gap: 10px;
+    row-gap: 20px;
   }
 
   
