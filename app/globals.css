@@ -95,7 +95,7 @@ body{
 @media screen and (max-width: 740px){
 
   #mainSection{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 60px;
   }
 
@@ -129,7 +129,7 @@ body{
   #heroElementsCardSlider{
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
   }
 
   
