@@ -46,20 +46,12 @@
    
 }
 
-.heroReleaseBadge{
-    width: 280px;
-    height: 50px;
-    background-image: url('../assets/images/releaseBadge.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 /* card*/
 
 .heroElementsCardSlider{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     
 }
 

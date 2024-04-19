@@ -7,8 +7,8 @@ export default function FooterSection() {
     return (
         <>
             <div className={styles.footerSection}>
-                <div className={styles.footerSectionContent}>
-                    <div className={styles.footerLinks}>
+                <div className={styles.footerSectionContent} id="footerSectionContent">
+                    <div className={styles.footerLinks} id="footerLinks">
                         <div className={styles.footerLogo}>
                             <Image src={footerLogo} width={100} height={30} alt="Linkify" />
                         </div>
@@ -62,7 +62,7 @@ export default function FooterSection() {
                         
                        
                     </div> 
-                    <div className={styles.copyright}>
+                    <div className={styles.copyright} id="copyright">
                         <p>copyrighgt linkify 2024, all rights reserved</p>
                     </div>
                 </div>

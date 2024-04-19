@@ -15,7 +15,7 @@ export default function NavBar() {
                         </Link>
                     </div>
                     <div className={styles.navBarLinksAndButton} id="navBarLinks">
-                        <div className={styles.navLinkRight}>
+                        <div className={styles.navLinkRight} id="navLinkRight">
                             <div className={styles.navLinkRightLeft}>
                                 <Link legacyBehavior href="/"><a className={styles.navLink}>Football</a></Link>
                                 <Link legacyBehavior href="/"><a className={styles.navLink}>NBA</a></Link>

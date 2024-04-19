@@ -5,7 +5,7 @@ import styles from "../../styles/heroSection.module.css";
 export default function HeroSection() {
     return (
         <>
-            <div className={styles.hero}>
+            <div className={styles.hero} id="hero">
                 <NavBar />
                 <HeroElements />
             </div>

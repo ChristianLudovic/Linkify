@@ -7,7 +7,12 @@ export default function Button() {
         <>
             <div className="button">
                 <Link href="https://www.buymeacoffee.com/christianludovic">
-                    <Image src={buyMeACoffee} alt="button" width={169} height={47.44} /> 
+                    <Image 
+                        src={buyMeACoffee} 
+                        alt="button" 
+                        width={169} 
+                        height={47.44} 
+                        id="navButton"/> 
                 </Link>
             </div>
         </>
