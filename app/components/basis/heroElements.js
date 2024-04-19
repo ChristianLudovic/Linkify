@@ -16,7 +16,7 @@ export default function HeroElements() {
                     </div>
                     <div className={styles.heroElementsCardSlider} id="heroElementsCardSlider">
                         <div className={styles.card1} id="card1">
-                            <div className={styles.cardContent} id="cardContent">
+                            <div className={styles.cardContent} id="cardContent1">
                                 <div className={styles.cardIcon}>
                                     <Image src={championsLeague} width={28} height={28} alt="UEFA Champions League" />
                                 </div>
@@ -24,7 +24,7 @@ export default function HeroElements() {
                             </div>
                         </div>
                         <div className={styles.card2} id="card2">
-                            <div className={styles.cardContent}>
+                            <div className={styles.cardContent} id="cardContent2">
                                 <div className={styles.cardIcon}>
                                     <Image src={ligue1} width={28} height={28} alt="Ligue 1" />
                                 </div>
@@ -32,7 +32,7 @@ export default function HeroElements() {
                             </div>
                         </div>
                         <div className={styles.card3} id="card3">
-                            <div className={styles.cardContent}>
+                            <div className={styles.cardContent} id="cardContent3">
                                 <div className={styles.cardIcon}>
                                     <Image src={premierLeague} width={28} height={28} alt="Premier League" />
                                 </div>
@@ -40,7 +40,7 @@ export default function HeroElements() {
                             </div>
                         </div>
                         <div className={styles.card4} id="card4">
-                            <div className={styles.cardContent}>
+                            <div className={styles.cardContent} id="cardContent4">
                                 <div className={styles.cardIcon}>
                                     <Image src={europaLeague} width={28} height={28} alt="BundesLiga" />
                                 </div>

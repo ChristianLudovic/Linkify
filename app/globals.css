@@ -95,39 +95,41 @@ body{
 @media screen and (max-width: 740px){
 
   #mainSection{
-    padding-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 
   #heroElementsContentText{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     gap: 20px;
   }
 
 
   #navBarContent{
-    max-width: 360px;
+    max-width: 375px;
   }
 
   #heroElementsContent{
-    max-width: 360px;
+    max-width: 375px;
   }
 
   #mainSectionContent{
-    max-width: 360px;  
+    max-width: 375px;  
   }
 
   #footerSectionContent{
-    max-width: 360px;
+    max-width: 375px;
   }
 
   #footerLinks{
-    max-width: 400px;
+    max-width: 375px;
   
   }
 
   #heroElementsCardSlider{
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
   }
 
   
@@ -148,21 +150,25 @@ body{
 
   #heroElementsContent #heroElementsContentText > h1 {
     font-size: 32px;
-    max-width: 400px;
+    max-width: 375px;
   }
 
-  #cardContent{
+  #cardContent1, #cardContent2, #cardContent3, #cardContent4{
     flex-direction: column;
     align-items: center;
   }
 
-  #cardContent > h2{
+  #cardContent1 > h2, #cardContent2 > h2, #cardContent3 > h2, #cardContent4 > h2{
     font-size: 16px;
     text-align: center;
   }
 
+  #cardContent1 > p, #cardContent2 > p, #cardContent3 > p, #cardContent4 > p{
+    text-align: center;
+  }
+
   #card1, #card2, #card3, #card4{
-    width: 155px;
+    width: 182.5px;
   }
 
   #navButton{
@@ -175,7 +181,7 @@ body{
   }
 
   #error{
-    max-width: 360px;
+    max-width: 375px;
     margin-left: 0%;
     margin-top: 30px;
   }
@@ -191,6 +197,8 @@ body{
 
   #copyright>p{
     text-align: center;
+    width: 320px;
+    line-height: 170%;
   }
 
 }
